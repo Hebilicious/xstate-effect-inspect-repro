@@ -1,0 +1,13 @@
+{
+  "name": "xstate-effect-inspect-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node repro.ts"
+  },
+  "dependencies": {
+    "@xstate/effect": "1.0.0-alpha.9",
+    "effect": "4.0.6",
+    "xstate": "6.0.0-alpha.70"
+  }
+}

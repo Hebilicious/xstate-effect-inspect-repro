@@ -1,0 +1,45 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@xstate/effect':
+        specifier: 1.0.0-alpha.9
+        version: 1.0.0-alpha.9(effect@4.0.6)(xstate@6.0.0-alpha.70)
+      effect:
+        specifier: 4.0.6
+        version: 4.0.6
+      xstate:
+        specifier: 6.0.0-alpha.70
+        version: 6.0.0-alpha.70
+
+packages:
+
+  '@xstate/effect@1.0.0-alpha.9':
+    resolution: {integrity: sha512-/j88zmjdhbHpBx5klhHIH+Tj8CpT+fb5x0syOKaZIFymPDShgOKwRVtCkz+t1KrX5p4qV4XBEQOCSsmqYnfgqg==}
+    peerDependencies:
+      effect: ^4.0.0
+      xstate: ^6.0.0-alpha.70
+
+  effect@4.0.6:
+    resolution: {integrity: sha512-Tc3mkzuLR6t6P9dhLt0D2GrxYtmU5td4XEJEiXCmILz53IRIfJyHsKZWjTA3xEjiwpNTtXBgI4iqYPxMztBDrw==}
+
+  xstate@6.0.0-alpha.70:
+    resolution: {integrity: sha512-TSFfXYaTNz+ylEpguNsu0L5vDy8cjHRXAqpZBKQnJI++Jm61Vb41TAg1HzeEbC+Mnq9XelKs2dQNOizTwcnssQ==}
+    hasBin: true
+
+snapshots:
+
+  '@xstate/effect@1.0.0-alpha.9(effect@4.0.6)(xstate@6.0.0-alpha.70)':
+    dependencies:
+      effect: 4.0.6
+      xstate: 6.0.0-alpha.70
+
+  effect@4.0.6: {}
+
+  xstate@6.0.0-alpha.70: {}
